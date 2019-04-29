@@ -23,25 +23,25 @@
             android:id="@+id/WidowB"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="TextView" />
+            android:text="%s" />
 
         <TextView
             android:id="@+id/DimplesB"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="TextView" />
+            android:text="%s" />
 
         <TextView
             android:id="@+id/EarlobesB"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="TextView" />
+            android:text="%s" />
 
         <TextView
             android:id="@+id/FrecklesB"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="TextView" />
+            android:text="%s" />
 
         <TextView
             android:id="@+id/EyeColorB"
@@ -53,19 +53,19 @@
             android:id="@+id/BrownB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="%s" />
 
         <TextView
             android:id="@+id/GreenB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="%s" />
 
         <TextView
             android:id="@+id/BlueB"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="TextView" />
+            android:text="%s" />
 
         <TextView
             android:id="@+id/Gender"

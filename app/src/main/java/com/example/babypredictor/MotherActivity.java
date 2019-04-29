@@ -53,6 +53,7 @@ public class MotherActivity extends AppCompatActivity {
         final CheckBox brownM = (CheckBox) findViewById(R.id.BrownM);
         final CheckBox greenM = (CheckBox) findViewById(R.id.GreenM);
         //final CheckBox blueM = (CheckBox) findViewById(R.id.BlueM);
+        //Button nextButton = (Button) findViewById(R.id.NextM);
         String fatherEyeColor = "";
         String motherEyeColor = "";
         if (brownF.isChecked()) {
