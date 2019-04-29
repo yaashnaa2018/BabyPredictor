@@ -24,7 +24,16 @@
             android:layout_width="match_parent"
             android:layout_height="51dp"
             android:text="Mother"
-            android:visibility="visible" />
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:fontFamily="sans-serif-medium" />
+
+        <Switch
+            android:id="@+id/WidowM"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Widow's Peak" />
 
         <Switch
             android:id="@+id/DimplesM"
@@ -50,7 +59,7 @@
         <TextView
             android:id="@+id/EyeColorM"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="25dp"
             android:text="Eye Color"
             android:visibility="visible" />
 

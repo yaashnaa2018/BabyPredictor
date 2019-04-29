@@ -8,6 +8,83 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Baby"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/WidowB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/DimplesB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/EarlobesB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/FrecklesB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/EyeColorB"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Eye Color" />
+
+        <TextView
+            android:id="@+id/BrownB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/GreenB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/BlueB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Gender"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Gender" />
+
+        <TextView
+            android:id="@+id/MaleB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male 50.00%" />
+
+        <TextView
+            android:id="@+id/FemaleB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Female 50.00%" />
+
         <Button
             android:id="@+id/NextB"
             android:layout_width="match_parent"

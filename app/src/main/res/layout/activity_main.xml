@@ -27,6 +27,12 @@
             android:visibility="visible" />
 
         <Switch
+            android:id="@+id/WidowF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Widow's Peak" />
+
+        <Switch
             android:id="@+id/DimplesF"
             android:layout_width="match_parent"
             android:layout_height="50dp"
