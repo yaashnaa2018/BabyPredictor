@@ -70,17 +70,24 @@ public class MotherActivity extends AppCompatActivity {
             motherEyeColor = "blue";
         }
         final String[] eyeColor = eyeColor(fatherEyeColor, motherEyeColor);
+        final String widowBaby = "Widow's Peak: " + percentage(widowF.isChecked(), widowM.isChecked());
+        final String dimplesBaby = "Dimples: " + percentage(dimplesF.isChecked(), dimplesM.isChecked());
+        final String earlobesBaby = "Free earlobes: " + percentage(earlobesF.isChecked(), earlobesM.isChecked());
+        final String frecklesBaby = "Freckles: " + percentage(frecklesF.isChecked(), frecklesM.isChecked());
+        final String brownBaby = "Brown: " + eyeColor[0];
+        final String greenBaby = "Green: " + eyeColor[1];
+        final String blueBaby = "Blue: " + eyeColor[2];
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MotherActivity.this, BabyActivity.class));
-                widowB.setText("Widow's Peak: " + percentage(widowF.isChecked(), widowM.isChecked()));
-                dimplesB.setText("Dimples: " + percentage(dimplesF.isChecked(), dimplesM.isChecked()));
-                earlobesB.setText("Free earlobes: " + percentage(earlobesF.isChecked(), earlobesM.isChecked()));
-                frecklesB.setText("Freckles: " + percentage(frecklesF.isChecked(), frecklesM.isChecked()));
-                brownB.setText("Brown: " + eyeColor[0]);
-                greenB.setText("Green: " + eyeColor[1]);
-                blueB.setText("Blue: " + eyeColor[2]);
+                widowB.setText(widowBaby);
+                dimplesB.setText(dimplesBaby);
+                earlobesB.setText(earlobesBaby);
+                frecklesB.setText(frecklesBaby);
+                brownB.setText(brownBaby);
+                greenB.setText(greenBaby);
+                blueB.setText(blueBaby);
             }
         });
     }
